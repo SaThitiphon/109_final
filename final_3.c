@@ -11,8 +11,6 @@ int main()
 			scanf("%d",&m[i][j]);
 		}
 	}
-	count = 0;
-	temp = 0;
 	k = 0;
 	for(i=0;i<a;i++)
 	{
@@ -59,6 +57,21 @@ int main()
 		}
 	}
 	sum1[k] = sum;
-
-	
+	count = 0;
+	temp = sum1[0];
+	for(i=0;i<a*2+2;i++)
+	{
+		if(temp==sum1[i])
+		{
+			count++;
+		}
+	}
+	if(count==a*2+2)
+	{
+		printf("no");
+	}
+	else
+	{
+		printf("yes");
+	}
 }

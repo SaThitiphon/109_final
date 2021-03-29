@@ -198,6 +198,7 @@ int main()
 	{
 		printf("yes");
 	}
+	printf("\n");
 	if(count2==b*2+2)
 	{
 		printf("no");
@@ -206,6 +207,7 @@ int main()
 	{
 		printf("yes");
 	}
+	printf("\n");
 	if(count3==c*2+2)
 	{
 		printf("no");
